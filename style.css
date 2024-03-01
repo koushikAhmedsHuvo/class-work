@@ -1,0 +1,93 @@
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: #ebebeb;
+}
+.header {
+  width: 100%;
+  height: 120px;
+  background-color: lightblue;
+}
+.logo {
+  height: 100%;
+  width: 25%;
+  background-color: red;
+  float: left;
+}
+.slogan {
+  height: 100%;
+  width: 75%;
+  background-color: green;
+  float: right;
+}
+.logo img {
+  width: 100px;
+  margin-left: 25px;
+  margin-top: 25px;
+  text-align: center;
+}
+.slogan h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+.slogan img {
+  width: 100%;
+  height: 100%;
+}
+.slogan p {
+  margin: 0px 0px 0px 10px;
+  width: 100%;
+  height: 100%;
+}
+.navbar {
+  width: 100%;
+  height: 50px;
+  background-color: #6a74c4;
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+}
+.navbar ul li {
+  float: left;
+}
+.navbar ul li a {
+  text-decoration: none;
+  padding: 10px 5px 10px 5px;
+  border-right: 1px solid;
+  border-color: black;
+  margin-top: 10px;
+}
+.navbar ul li a:hover {
+  background-color: grey;
+  border-radius: 25px;
+}
+.articale {
+  width: 100%;
+  height: 500px;
+  background-color: #cecece;
+
+  padding: 0;
+}
+.content {
+  padding: 0;
+  margin: 0;
+  width: 90%;
+  margin-left: 12px;
+}
+.content h1,
+p {
+  margin: 0;
+  text-align: center;
+}
+.footer {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+}
+.footer p {
+  color: white;
+  padding-top: 10px;
+  text-align: center;
+}
